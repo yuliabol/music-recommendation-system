@@ -13,8 +13,8 @@ This is a Django + React project for recommending music.
 
 ## Frontend (React)
 
-1. Navigate to the music-recommendation-frontend folder:
-   cd music-recommendation-frontend
+1. Navigate to the `music-recommendation` folder:
+   cd music-recommendation
 2. Install dependencies:
    npm install
 3. Run the server:
