@@ -1,0 +1,47 @@
+.recommendations-container {
+    margin-top: 125px;
+    width: 410px;
+    height: 200px;
+    overflow-y: scroll;
+    border-radius: 8px;
+    padding: 10px;
+    position: absolute;
+    margin-left: 28%;
+}
+
+.scrollable {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.recommendation {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 8px;
+    border: 1px solid #676A79;
+    border-radius: 50px;
+    background-color: #2E2E38;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    height: 40px;
+}
+
+.recommendation:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.song-title {
+    font-size: 18px;
+    margin-left: 10px;
+    height: 10px;
+    font-weight: bold;
+    color: #d6d6dc;
+}
+
+.song-artist {
+    font-size: 15px;
+    color: #d6d6dc;
+    margin-left: 10px;
+}

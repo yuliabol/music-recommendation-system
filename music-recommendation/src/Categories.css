@@ -1,0 +1,10 @@
+.categories {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .category {
+    text-align: center;
+  }
+
+  

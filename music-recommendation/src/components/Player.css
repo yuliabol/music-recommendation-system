@@ -1,0 +1,90 @@
+.player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #2E2E38;
+    border-radius: 15px;
+    padding: 20px;
+    width: 370px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-family: Arial, sans-serif;
+    margin-left: 20%;
+    border: 1.5px, solid, #676A79;
+}
+
+.player-cover {
+    width: 90%;
+    border: 1px, solid, #676A79;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+.player-details {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.track-name {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.artist-name {
+    font-size: 18px;
+    color: #b3b3b3;
+    margin: 5px 0;
+}
+
+.player-controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.control-button {
+    background-color: #2E2E38;
+    border: none;
+    border-radius: 50%;    
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.control-button:hover {
+    background-color: #2E2E38;
+}
+
+.icon {
+    width: 11%;
+}
+
+.player-seekbar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    color: #2E2E38;
+}
+
+.seekbar {
+    flex: 1;
+}
+
+.time,
+.duration {
+    font-size: 0.9rem;
+}
+
+.player-volume {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.volume-control {
+    width: 100px;
+}
